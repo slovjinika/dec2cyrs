@@ -54,7 +54,6 @@ print(f"11; {dec2cyrs(11, use_titlo=use_titlo)}")
 print(f"111; {dec2cyrs(111, use_titlo=use_titlo)}")
 print(f"1111; {dec2cyrs(1111, use_titlo=use_titlo)}")
 
-
 print(f"1; {dec2cyrs(1, use_titlo=False)}")
 print(f"11; {dec2cyrs(11, use_titlo=False)}")
 print(f"111; {dec2cyrs(111, use_titlo=False)}")
