@@ -47,11 +47,15 @@ use_titlo = True
 #use_titlo = False
 
 for i in range(1, 9999999999):
-    print(f"{i}: {dec2cyrs(i, use_titlo=use_titlo)}")
+    print(f"{i}; {dec2cyrs(i, use_titlo=use_titlo)}")
 
-print(f"1: {dec2cyrs(1, use_titlo=use_titlo)}")
-print(f"11: {dec2cyrs(11, use_titlo=use_titlo)}")
-print(f"111: {dec2cyrs(111, use_titlo=use_titlo)}")
-print(f"1111: {dec2cyrs(1111, use_titlo=use_titlo)}")
-print(f"888: {dec2cyrs(1234, use_titlo=use_titlo)}")
+print(f"1; {dec2cyrs(1, use_titlo=use_titlo)}")
+print(f"11; {dec2cyrs(11, use_titlo=use_titlo)}")
+print(f"111; {dec2cyrs(111, use_titlo=use_titlo)}")
+print(f"1111; {dec2cyrs(1111, use_titlo=use_titlo)}")
 
+
+print(f"1; {dec2cyrs(1, use_titlo=False)}")
+print(f"11; {dec2cyrs(11, use_titlo=False)}")
+print(f"111; {dec2cyrs(111, use_titlo=False)}")
+print(f"1111; {dec2cyrs(1111, use_titlo=False)}")
