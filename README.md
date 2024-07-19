@@ -61,3 +61,25 @@ print(result_with_titlo)
 2. Convert 888 with titlo:
 
 `python dec2cyrs.py -t 888`
+
+## Task List:
+### Bash Script Improvements
+
+1. Input Validation:
+
+• Task: Implement input validation in the Bash script to prevent users from entering invalid numbers.
+• Sub-tasks:
+  * Check if the input is -1.
+  * Check if the input exceeds the specified range (e.g., maximum allowed value).
+  * Provide appropriate error messages if invalid input is detected.
+    
+### Python and Bash Script Improvements
+2. Tilde Character Handling:
+
+• Task: Modify the script to ignore the tilde character (҂) during number formatting.
+• Sub-tasks:
+  * Identify the code responsible for output formatting.
+  * Implement logic to ignore the tilde character while displaying the number.
+  * Ensure the script accurately formats numbers without the tilde character.
+
+Note: This task list provides a clear overview of the required changes. You might need to adjust the specific steps based on the script's existing code and the expected behavior.
